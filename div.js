@@ -29,13 +29,13 @@ function changeColor(index) {
   const p = document.querySelector('#section');
   switch (index) {
     case 1:
-      p.style.border = '10px solid #c9decf';
+      p.style.border = '10px solid rgb(201, 222, 207)';
       break;
     case 2:
-      p.style.border = '10px solid #e9e1d4';
+      p.style.border = '10px solid rgb(233, 225, 212)';
       break;
     case 3:
-      p.style.border = '10px solid #ccdbe2';
+      p.style.border = '10px solid rgb(204, 219, 226)';
       break;
   }
 }
