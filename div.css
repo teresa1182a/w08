@@ -21,7 +21,7 @@ body {
 #heading {
   width: 100%;
   height: 7rem;
-  background-color: rosybrown;
+  background-color: #e5c1c5;
   text-align: center;
 }
 
@@ -119,6 +119,19 @@ aside ul {
   display: flex;
   flex-direction: column;
   list-style: none;
+}
+
+aside li {
+  padding: 0 0.5rem 2rem 0.5rem;
+}
+
+aside li a {
+  background-color: rgb(224, 197, 236);
+  padding: 0.5rem;
+}
+
+aside li a:hover {
+  background-color: ivory;
 }
 
 #section {

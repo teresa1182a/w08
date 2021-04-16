@@ -29,35 +29,35 @@ function changeColor(index) {
   const p = document.querySelector('#section');
   switch (index) {
     case 1:
-      p.style.border = '10px solid rgb(255, 0, 0)';
+      p.style.border = '10px solid #c9decf';
       break;
     case 2:
-      p.style.border = '10px solid rgb(0, 255, 0)';
+      p.style.border = '10px solid #e9e1d4';
       break;
     case 3:
-      p.style.border = '10px solid rgb(255, 0, 255)';
+      p.style.border = '10px solid #ccdbe2';
       break;
   }
 }
 
 function changeImage(index) {
-  const player = document.querySelector('#player');
+  const pl = document.querySelector('#player');
   console.log('player', player);
   switch (index) {
     case 1:
-      player.innerHTML = <img src="./1.jpg" style="width: 100%; height: 50rem" />;
+      pl.innerHTML = '<img src="./1.jpg" style="width: 100%; height: 100%" />';
       break;
     case 2:
-      player.innerHTML = <img src="./2.jpg" style="width: 100%; height: 50rem" />;
+      pl.innerHTML = '<img src="./2.jpg" style="width: 100%; height: 100%" />';
       break;
     case 3:
-      player.innerHTML = <img src="./3.jpg" style="width: 100%; height: 50rem" />;
+      pl.innerHTML = '<img src="./3.jpg" style="width: 100%; height: 100%" />';
       break;
     case 4:
-      player.innerHTML = <img src="./4.jpg" style="width: 100%; height: 50rem" />;
+      pl.innerHTML = '<img src="./4.jpg" style="width: 100%; height: 100%" />';
       break;
     case 5:
-      player.innerHTML = <img src="./5.jpg" style="width: 100%; height: 50rem" />;
+      pl.innerHTML = '<img src="./5.jpg" style="width: 100%; height: 100%" />';
       break;
   }
 }
