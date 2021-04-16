@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Div Demo</title>
+    <link rel="stylesheet" href="./div.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="heading">
+        <h1>淡江大戲《那些淡江教我們的事》</h1>
+        <ul class="a">
+          <li onclick="changeColor(1)">
+            <a href="#">Link 1 </a>
+          </li>
+          <li onclick="changeColor(2)">
+            <a href="#">Link 2</a>
+          </li>
+          <li onclick="changeColor(3)">
+            <a href="#">Link 3</a>
+          </li>
+        </ul>
+        <ul class="b">
+          <li onclick="changeImage(1)">
+            <a href="#">Img1</a>
+          </li>
+          <li onclick="changeImage(2)">
+            <a href="#">Img2</a>
+          </li>
+          <li onclick="changeImage(3)">
+            <a href="#">Img3</a>
+          </li>
+          <li onclick="changeImage(4)">
+            <a href="#">Img4</a>
+          </li>
+          <li onclick="changeImage(5)">
+            <a href="#">Img5</a>
+          </li>
+        </ul>
+      </div>
+      <div id="main">
+        <aside>
+          <ul>
+            <li onclick="changevideo(1)">
+              <a href="#">淡江大戲 1</a>
+            </li>
+            <li onclick="changevideo(2)">
+              <a href="#">淡江大戲 2</a>
+            </li>
+            <li onclick="changevideo(3)">
+              <a href="#">淡江大戲 3</a>
+            </li>
+            <li onclick="changevideo(4)">
+              <a href="#">淡江大戲 4</a>
+            </li>
+            <li onclick="changevideo(5)">
+              <a href="#">淡江大戲 5</a>
+            </li>
+          </ul>
+        </aside>
+        <div id="section">
+          <div class="video-responsive">
+            <div id="player">
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/RechrtUxfQc"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="footer">Footer</div>
+    </div>
+    <script src="./div.js"></script>
+  </body>
+</html>
